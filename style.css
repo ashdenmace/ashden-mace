@@ -1,0 +1,112 @@
+/* class I used for visualizing elements */
+.redBorder {
+    border: 12px solid red;
+}
+/* simple class to center text elements */
+.center {
+    text-align: center;
+}
+
+/* make sure that the font is consistent throughout the webpage, add a small gradiant cause it looks nice */
+body {
+    background-image: linear-gradient(rgb(70, 70, 70), rgb(0, 0, 0));
+    font-family: "Avenir"
+}
+/* general styling for the border, padding creates bigger space for blue background */
+header {
+    background-color: rgb(45, 86, 148);
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin: 0;
+    font-family: "Chalkduster";
+    height: 150px;
+}
+/* make sure that h1 and h2 are separate sizes, but close together */
+header h1 {
+    font-size: 80px;
+    margin: 0;
+    
+}
+
+header h2 {
+    font-size: 30px;
+    margin-top: 0;
+    
+   
+}
+/* make sure that main is styled correctly */
+main {
+    background-color: rgb(227, 224, 214);
+    margin: 10px;
+    border: 5px solid grey;
+    padding: 100px 200px 100px 200px;
+    
+}
+
+h2 {
+    font-size: 30px;
+}
+
+div {
+   margin-bottom: 50px; 
+}
+
+div img {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+
+div p {
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+/* make sure article and section are aligned together */
+article, section {
+    padding: 0px 150px 0px 150px;  
+    margin: 50px 100px 50px 100px; 
+    font-size: 16px;
+}
+
+section div {
+    padding: 0 75px 0 75px;
+}
+
+
+
+article div {
+    padding: 0 75px 0 75px;
+}
+
+article div p {
+    font-size: 18px;
+}
+
+/* style my contact links */
+a {
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* general styling for the footer */
+footer {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
